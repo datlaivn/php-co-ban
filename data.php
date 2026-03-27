@@ -1,0 +1,31 @@
+<?php
+// Product data converted from the provided array. Use $products and find_product() to locate an item by its code.
+$products = [
+    ['ma_sp' => 'P1',  'ten' => 'Iphone 16 Pro Max',        'gia' => 25000000, 'img' => 'https://cdn.tgdd.vn/Products/Images/42/329149/iphone-16-pro-max-sa-mac-thumb-1-600x600.jpg', 'type' => 'iphone'],
+    ['ma_sp' => 'P2',  'ten' => 'Iphone 17 Pro Max',        'gia' => 30000000, 'img' => 'https://cdn.tgdd.vn/Products/Images/42/342679/iphone-17-pro-max-bac-thumb-600x600.jpg',      'type' => 'iphone'],
+    ['ma_sp' => 'P3',  'ten' => 'Iphone 15 Pro Max',        'gia' => 20000000, 'img' => 'https://cdn.tgdd.vn/Products/Images/42/305658/iphone-15-pro-max-gold-thumbnew-600x600.jpg', 'type' => 'iphone'],
+    ['ma_sp' => 'P4',  'ten' => 'Iphone 14 Pro Max',        'gia' => 15000000, 'img' => 'https://cdn.tgdd.vn/Products/Images/42/289700/iphone-14-pro-max-tim-thumb-600x600.jpg',    'type' => 'iphone'],
+    ['ma_sp' => 'P5',  'ten' => 'Iphone 16 Pro Max',        'gia' => 25000000, 'img' => 'https://cdn.tgdd.vn/Products/Images/42/329149/iphone-16-pro-max-sa-mac-thumb-1-600x600.jpg', 'type' => 'iphone'],
+    ['ma_sp' => 'P6',  'ten' => 'Iphone 17 Pro Max',        'gia' => 30000000, 'img' => 'https://cdn.tgdd.vn/Products/Images/42/342679/iphone-17-pro-max-bac-thumb-600x600.jpg',      'type' => 'iphone'],
+    ['ma_sp' => 'P7',  'ten' => 'Iphone 15 Pro Max',        'gia' => 20000000, 'img' => 'https://cdn.tgdd.vn/Products/Images/42/305658/iphone-15-pro-max-gold-thumbnew-600x600.jpg', 'type' => 'iphone'],
+    ['ma_sp' => 'P8',  'ten' => 'Iphone 14 Pro Max',        'gia' => 15000000, 'img' => 'https://cdn.tgdd.vn/Products/Images/42/289700/iphone-14-pro-max-tim-thumb-600x600.jpg',    'type' => 'iphone'],
+    ['ma_sp' => 'P9',  'ten' => 'Iphone 16 Pro Max',        'gia' => 25000000, 'img' => 'https://cdn.tgdd.vn/Products/Images/42/329149/iphone-16-pro-max-sa-mac-thumb-1-600x600.jpg', 'type' => 'iphone'],
+    ['ma_sp' => 'P10', 'ten' => 'Iphone 17 Pro Max',        'gia' => 30000000, 'img' => 'https://cdn.tgdd.vn/Products/Images/42/342679/iphone-17-pro-max-bac-thumb-600x600.jpg',      'type' => 'iphone'],
+    ['ma_sp' => 'P11', 'ten' => 'Iphone 15 Pro Max',        'gia' => 20000000, 'img' => 'https://cdn.tgdd.vn/Products/Images/42/305658/iphone-15-pro-max-gold-thumbnew-600x600.jpg', 'type' => 'iphone'],
+    ['ma_sp' => 'P12', 'ten' => 'Iphone 14 Pro Max',        'gia' => 15000000, 'img' => 'https://cdn.tgdd.vn/Products/Images/42/289700/iphone-14-pro-max-tim-thumb-600x600.jpg',    'type' => 'iphone'],
+    ['ma_sp' => 'P13', 'ten' => 'Iphone 16 Pro Max',        'gia' => 25000000, 'img' => 'https://cdn.tgdd.vn/Products/Images/42/329149/iphone-16-pro-max-sa-mac-thumb-1-600x600.jpg', 'type' => 'iphone'],
+    ['ma_sp' => 'P14', 'ten' => 'Iphone 17 Pro Max',        'gia' => 30000000, 'img' => 'https://cdn.tgdd.vn/Products/Images/42/342679/iphone-17-pro-max-bac-thumb-600x600.jpg',      'type' => 'iphone'],
+    ['ma_sp' => 'P15', 'ten' => 'Iphone 15 Pro Max',        'gia' => 20000000, 'img' => 'https://cdn.tgdd.vn/Products/Images/42/305658/iphone-15-pro-max-gold-thumbnew-600x600.jpg', 'type' => 'iphone'],
+    ['ma_sp' => 'P16', 'ten' => 'Iphone 14 Pro Max',        'gia' => 15000000, 'img' => 'https://cdn.tgdd.vn/Products/Images/42/289700/iphone-14-pro-max-tim-thumb-600x600.jpg',    'type' => 'iphone'],
+    ['ma_sp' => 'P17', 'ten' => 'Iphone 16 Pro Max',        'gia' => 25000000, 'img' => 'https://cdn.tgdd.vn/Products/Images/42/329149/iphone-16-pro-max-sa-mac-thumb-1-600x600.jpg', 'type' => 'iphone'],
+    ['ma_sp' => 'P18', 'ten' => 'Iphone 17 Pro Max',        'gia' => 30000000, 'img' => 'https://cdn.tgdd.vn/Products/Images/42/342679/iphone-17-pro-max-bac-thumb-600x600.jpg',      'type' => 'iphone'],
+    ['ma_sp' => 'P19', 'ten' => 'Iphone 15 Pro Max',        'gia' => 20000000, 'img' => 'https://cdn.tgdd.vn/Products/Images/42/305658/iphone-15-pro-max-gold-thumbnew-600x600.jpg', 'type' => 'iphone'],
+    ['ma_sp' => 'P20', 'ten' => 'Iphone 14 Pro Max',        'gia' => 15000000, 'img' => 'https://cdn.tgdd.vn/Products/Images/42/289700/iphone-14-pro-max-tim-thumb-600x600.jpg',    'type' => 'iphone'],
+    ['ma_sp' => 'P21', 'ten' => 'Samsung Galaxy S25 Ultra','gia' => 28990000, 'img' => 'https://cdn.tgdd.vn/Products/Images/42/289700/iphone-14-pro-max-tim-thumb-600x600.jpg',    'type' => 'samsung'],
+    ['ma_sp' => 'P22', 'ten' => 'Samsung Galaxy A56',      'gia' => 9990000,  'img' => 'https://cdn.tgdd.vn/Products/Images/42/289700/iphone-14-pro-max-tim-thumb-600x600.jpg',    'type' => 'samsung'],
+    ['ma_sp' => 'P23', 'ten' => 'Xiaomi 14T Pro',          'gia' => 15990000, 'img' => 'https://cdn.tgdd.vn/Products/Images/42/289700/iphone-14-pro-max-tim-thumb-600x600.jpg',    'type' => 'xiaomi'],
+    ['ma_sp' => 'P24', 'ten' => 'Xiaomi Redmi Note 14',    'gia' => 6990000,  'img' => 'https://cdn.tgdd.vn/Products/Images/42/289700/iphone-14-pro-max-tim-thumb-600x600.jpg',    'type' => 'xiaomi'],
+    ['ma_sp' => 'P25', 'ten' => 'Tai nghe Bluetooth TWS',  'gia' => 890000,   'img' => 'https://cdn.tgdd.vn/Products/Images/42/289700/iphone-14-pro-max-tim-thumb-600x600.jpg',    'type' => 'phukien'],
+    ['ma_sp' => 'P26', 'ten' => 'Sạc nhanh 25W USB-C',     'gia' => 390000,   'img' => 'https://cdn.tgdd.vn/Products/Images/42/289700/iphone-14-pro-max-tim-thumb-600x600.jpg',    'type' => 'phukien'],
+];
+
